@@ -16,14 +16,14 @@ These files document the experimentation, iteration, and learning process. While
 - Applies 3-year rolling average features for forecasting 2025 win percentage
 - Compares model predictions against sportsbook expectations and identifies potential discrepancies
 
+### `time-series-2.ipynb`
+- Quick prototype to test 80/20 train-test split for time series models
+- Evaluates SARIMAX forecasting accuracy across all MLB teams
+
 ### `time-series.ipynb`
 - Initial SARIMAX modeling experiments
 - Includes team-by-team stationarity checks and iterative model testing
 - Reflects raw development work and multiple exploratory directions
-
-### 🧪 `time-series-2.ipynb`
-- Quick prototype to test 80/20 train-test split for time series models
-- Evaluates SARIMAX forecasting accuracy across all MLB teams
 
 ---
 
