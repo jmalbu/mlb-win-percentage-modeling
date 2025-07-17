@@ -16,6 +16,12 @@ These files document the experimentation, iteration, and learning process. While
 - Applies 3-year rolling average features for forecasting 2025 win percentage
 - Compares model predictions against sportsbook expectations and identifies potential discrepancies
 
+### `neural-network.ipynb`
+- Implements a multi-step ahead forecast of team win percentage using an LSTM neural network
+- Preprocesses rolling team stats as input sequences and structures output as future win percentage predictions
+- Visualizes actual vs. predicted performance across multiple steps
+- Highlights an early-stage deep learning approach with potential for refinement
+
 ### `time-series-2.ipynb`
 - Quick prototype to test 80/20 train-test split for time series models
 - Evaluates SARIMAX forecasting accuracy across all MLB teams
