@@ -66,3 +66,5 @@ Each row represents an MLB team’s regular-season performance in a given year (
 ---
 
 *Note: Some metrics (e.g., OPS+, ERA+) are normalized by league and ballpark to enable fair comparison across teams and seasons.*
+
+See the full [Data Dictionary](./data-dictionary.md) for context, formulas, and categorized descriptions.
