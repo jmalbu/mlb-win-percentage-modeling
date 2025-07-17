@@ -11,6 +11,11 @@ These files document the experimentation, iteration, and learning process. While
 - Includes manual variable selection, Lasso, Ridge, Elastic Net, and OLS
 - Useful for understanding the feature engineering and trial-and-error process
 
+### `rolling-features-rf-lasso.ipynb`
+- Notebook by Max (teammate) exploring Random Forest and Lasso regression models
+- Applies 3-year rolling average features for forecasting 2025 win percentage
+- Compares model predictions against sportsbook expectations and identifies potential discrepancies
+
 ### `time-series.ipynb`
 - Initial SARIMAX modeling experiments
 - Includes team-by-team stationarity checks and iterative model testing
