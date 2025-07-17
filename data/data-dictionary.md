@@ -92,3 +92,7 @@ This file documents the variables used in the team-level dataset for modeling wi
 - Some adjusted metrics (like OPS+, ERA+) normalize values across seasons and ballparks to facilitate fair comparison.
 - The dataset combines offensive and defensive team-level summaries for use in regression and time series modeling.
 
+---
+
+For a complete table-format reference with variable types, see [`variable-summary-table.md`](./variable-summary-table.md)
+
