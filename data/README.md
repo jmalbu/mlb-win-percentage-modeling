@@ -8,8 +8,8 @@ This folder contains all datasets and supporting documentation used in the MLB w
 
 | Filename | Description |
 |----------|-------------|
-| `baseball-data.csv` | Raw dataset of team-level statistics for all 30 MLB teams from 1974 to 2024. Includes batting, pitching, and performance metrics. |
 | `baseball-data-normalized.csv` | Version of the dataset with normalized numeric features, used for machine learning models and time series forecasting. |
+| `baseball-data.csv` | Raw dataset of team-level statistics for all 30 MLB teams from 1974 to 2024. Includes batting, pitching, and performance metrics. |
 | `data-dictionary.md` | Human-readable dictionary describing each variable in narrative, grouped format (with formulas and context). |
 | `variable-summary-table.md` | Table-style summary of all variables with types and concise descriptions, designed for quick reference and modeling prep. |
 
