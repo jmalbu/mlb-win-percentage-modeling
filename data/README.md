@@ -19,13 +19,15 @@ This folder contains all datasets and supporting documentation used in the MLB w
 
 - **Observations**: 1 row per team-season (e.g., 2021 Yankees)
 - **Coverage**: 30 MLB teams, 1974–2024 (≈1,500 rows)
-- **Source**: Data retrieved from [Baseball Reference](https://www.baseball-reference.com/) via StatHead, a comprehensive database of baseball history including every player, team, season, league, award, record, and score dating back to 1871.
 
 ## Notes
 
 - Adjusted metrics like `OPS+` and `ERA+` are normalized to league and park factors for cross-season comparison.
 - The normalized CSV was created using feature scaling (z-score) across the continuous variables to improve model convergence and interpretability.
 
+## Data Source
+
+- Data was retrieved from [Baseball Reference](https://www.baseball-reference.com/) using **StatHead**, a comprehensive database of baseball history that includes every player, team, season, league, award, record, and score dating back to 1871.
 ---
 
  See the main [`README.md`](../README.md) for full project context.
